@@ -13,7 +13,7 @@ A escolha das tecnologias para a solução foi pensada para ter a mesmo ambiente
 - **Versionamento**: GitHub
 - **Ambiente para desenvolvimento**: DevBox
 
-**Nota**: Optei pelo OpenShift Sandbox para hospedagem por ter experiência prévia com a ferramenta. O OpenShift é uma plataforma robusta de containerização e orquestração baseada em Kubernetes, que também é adequada para hospedagem da aplicação, como o **Amazon Web Services**.
+**Nota**: Optei pelo OpenShift Sandbox para hospedagem por ter experiência prévia com a ferramenta. O OpenShift é uma plataforma robusta de containerização e orquestração baseada em Kubernetes, que também é adequada para hospedagem da aplicação. Esta escolha oferece funcionalidades similares às que seriam utilizadas no **Amazon Web Services**.
 
 # Como rodar esse projeto localmente?
 Para esse projeto, eu primeiramente analisei a possibilidade de utilizar DevBox, ferramenta essa que até então não conhecia, achei bem interessante o propósito de disponibilizar um ambiente padronizado e isolado, e resolvi usa-la nesse projeto. Então será necessário o uso do DevBox.
