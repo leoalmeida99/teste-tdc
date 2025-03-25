@@ -5,9 +5,9 @@ Aplicação para submissão e visualização de propostas de palestras (Call for
 
 A escolha das tecnologias para a solução foi pensada para ter a mesmo ambiente de trabalho na GlobalCode, por mais que não seja um critério de avaliação.
 
-- **Backend**: Java 21+ com Quarkus + Renarde
+- **Backend**: Java 21 + Quarkus + Renarde
 - **Frontend**: Vaadin
-- **Banco de dados relacional**: MariaDB
+- **Banco de dados relacional**: Postgre
 - **Containerização**: Docker
 - **Hospedagem**: OpenShift Sandbox
 - **Versionamento**: GitHub
@@ -39,12 +39,8 @@ Pelo Visual Studio Code:
 ```bash
 code .
 ```
-(ola).
 
-(_e entre devbox.json_)
-()
-
-Substitua o conteúdo pelo seguinte:
+Entre no devbox.json substitua o conteúdo pelo seguinte:
 ```jsx
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.0/.schema/devbox.schema.json",
@@ -71,18 +67,20 @@ Substitua o conteúdo pelo seguinte:
 
 ```
 
+Rode o ambiente DevBox:
+```bash
+devbox shell
+```
+
 Se quiser verificar se todas as ferramentas foram instaladas:
 
 ```bash
 java -version
 mvn -version
 docker --version
-mariadb --version
 ```
 
-3. O banco por padrão vem desconfigurado, porém é simples configura-lo para rodar ele.
-
-Já temos o ambiente pronto para rodar o projeto, agora clone de fato o projeto: 
+Já temos o ambiente pronto para rodar o projeto, agora clone o projeto: 
 
 ```bash
 git clone https://github.com/leoalmeida99/teste-tdc
